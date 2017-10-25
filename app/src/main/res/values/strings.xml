@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyApp(Event)</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_event_page_main">EventPageMain</string>
+    <string name="google_place_api">AIzaSyA69r-UZGjWIjDb9ho1wBZ7vTFVBCq_tdI</string>
+</resources>

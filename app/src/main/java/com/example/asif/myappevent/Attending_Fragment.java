@@ -59,32 +59,6 @@ public class Attending_Fragment extends Fragment {
         final int mYear = c.get(Calendar.YEAR); // current year
         final int mMonth = c.get(Calendar.MONTH); // current month
         final int mDay = c.get(Calendar.DAY_OF_MONTH); // current day
-      /*  final ProgressDialog dialog;
-        dialog = ProgressDialog.show(getContext(), "", "Loading", true);*/
-
-      /*  mDatabase.addValueEventListener(new ValueEventListener() {
-            @Override
-            public void onDataChange(DataSnapshot dataSnapshot) {
-                list.clear();
-
-                for(DataSnapshot users : dataSnapshot.getChildren())
-                {
-                    EventDetails temp=new EventDetails();
-                    temp=users.getValue(EventDetails.class);
-                    String key = dataSnapshot.getKey();
-                   // if(!list_keys.contains(key) ) {
-                       list.add(temp);
-                        list_keys.add(key);
-                   // }
-                    recyclerView.setAdapter(adapter);
-               }
-            }
-
-            @Override
-            public void onCancelled(DatabaseError databaseError) {
-
-            }
-        });*/
 
         mDatabase.addChildEventListener(new ChildEventListener() {
             @Override

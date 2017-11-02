@@ -81,10 +81,7 @@ public class Attending_Fragment extends Fragment {
                         outdated = true;
                     }
                 }
-                catch (ParseException e)
-                {
-                    //
-                }*/
+                */
                String key = dataSnapshot.getKey();
                 if(!list_keys.contains(key)) {
                     list.add(temp);

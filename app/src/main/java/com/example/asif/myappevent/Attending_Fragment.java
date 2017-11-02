@@ -69,7 +69,7 @@ public class Attending_Fragment extends Fragment {
                 temp=dataSnapshot.getValue(EventDetails.class);
 
                 String mDate = temp.getEventDate();
-               /* boolean outdated = false;
+               /* 
                 try {
                     Date date1, date2;
                     SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");
